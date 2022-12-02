@@ -1,0 +1,32 @@
+:root {
+    --fontFamily1: "Poppins", sans-serif;
+    --fontFamily2: "Open Sans", sans-serif;
+    --mainColor: #ff1949;
+    --optionalColor: #0eb582;
+    --whiteColor: #fff;
+    --blackColor: #252525;
+    --paragraphColor: #727695;
+    --fontSize: 15px;
+    --transition: .5s;
+}
+.card{
+    background-color: var(--whiteColor);
+    box-shadow: 0 8px 16px 0 rgb(146 184 255 / 20%);
+    border-radius: 10px 10px 10px 10px !important;
+    border: none !important;
+    transition: var(--transition);
+}
+
+.card_footer{
+    border-top:1px solid #e2f4ff !important;
+}
+
+.coursesTag{
+    position: absolute;
+    right: 25px;
+    bottom: 0;
+    background-color: var(--whiteColor);
+    border-radius: 5px 5px 0 0;
+    transition: var(--transition);
+    padding: 5px 15px;
+}
